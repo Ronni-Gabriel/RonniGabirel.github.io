@@ -1,0 +1,81 @@
+
+
+  
+
+body 
+{
+background-color: burlywood;
+
+
+}
+
+.navbar {
+  
+    list
+  list-style-type: none;
+    
+   
+  margin: 0;
+    padding: 0;
+    background-color: #333; /* Cambia el color de fondo según tus preferencias */
+  }
+  
+  /* Estilo para los elementos de la lista (enlaces) */
+  .navbar li {
+    display: inline;
+    margin-right: 220px; /* Espacio entre elementos */
+  }
+  
+  /* Estilo para los enlaces */
+  .navbar a {
+    text-decoration: none;
+    color: rgb(209, 209, 209); /* Color del texto */
+    font-size: 24px; /* Tamaño del texto */
+  }
+  
+  /* Estilo para los enlaces al pasar el mouse por encima */
+  .navbar a:hover {
+    
+   
+  color: #ff7300; /* Cambia el color al pasar el mouse */
+  }
+
+{
+
+
+  height: 100vh;
+width: 100%;
+position: relative;
+overflow: hidden;
+
+
+
+}
+
+
+
+
+
+
+section{
+  display: flex;
+  width: 600px;
+  height: 500px;
+}
+section img{
+  width: 140px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .9;
+  transition: .4s ease;
+}
+section img:hover{
+  cursor: crosshair;
+  width: 240px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+
+
+
